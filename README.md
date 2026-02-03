@@ -1,21 +1,29 @@
-# 📊 Imersão Dados: Explorando Python e Pandas
+# 📊 Salaries Data Science: End-to-End Pipeline
 
-> Repositório dedicado à análise de dados, estatística e visualização com Python, realizado durante a Imersão Dados da Alura.
+Projeto final da **Imersão Dados com Python (Alura)**. O foco deste repositório é demonstrar a construção de um pipeline de dados modular, desde o tratamento de dados brutos até a entrega de uma interface analítica interativa.
+
+
+
+## 🏗️ Estrutura do Repositório
+
+A organização foi projetada para garantir a integridade e a linhagem dos dados (Data Lineage) entre as etapas:
+
+* **`data/`**: Contém o dataset original e os checkpoints gerados após cada etapa de processamento (`salaries_aula_1_processado.csv`, etc.).
+* **`notebooks/`**: Centraliza os arquivos Jupyter (.ipynb) de análise exploratória e o script Python (.py) da aplicação final.
+* **`requirements.txt`**: Documentação das dependências e versões do ambiente virtual.
+
+## 🛠️ Tech Stack
+
+* **Linguagem:** Python 3.12
+* **Engenharia & Análise:** Pandas e NumPy
+* **Visualização:** Plotly Express, Seaborn e Matplotlib
+* **Aplicação:** Streamlit
+
+## 📈 Entregas Principais
+
+* **Pipeline de Dados:** Tratamento estruturado com salvamento de estados intermediários.
+* **Análise de Senioridade:** Estudo da distribuição salarial global por nível de experiência.
+* **Interface Analítica:** Dashboard interativo com filtros dinâmicos de contrato, senioridade e tamanho de empresa.
 
 ---
-
-## 🚀 Cronograma de Estudos
-Baseado nos módulos da imersão:
-* **Aula 01:** Exploração de dados com Pandas e Python básico.
-* **Aula 02:** Limpeza e tratamento de dados (Data Cleaning).
-* **Aula 03:** Visualização de dados e Storytelling com Seaborn/Matplotlib.
-* **Aula 04:** Construção de dashboards interativos e conclusões.
-
-## 🛠️ Ferramentas
-* **Linguagem:** Python 3.x
-* **Bibliotecas:** Pandas, NumPy, Matplotlib, Seaborn.
-* **Ambiente:** Jupyter Notebook / VS Code.
-
----
-## 👤 Autor
-**Felipe Sette** - Engenheiro de Dados Jr.
+**Felipe Sette** — *Engenheiro de Dados Jr.*
